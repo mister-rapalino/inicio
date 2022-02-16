@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@500&family=Oswald:wght@200&display=swap"
+    rel="stylesheet">
+
+  <title>Mister Rapalino</title>
+
+</head>
+
+<body>
+
+  <!-- PAGINA HECHA POR JOSE RAPALINO -->
+  <!-- contenedor que contiene a todo el body -->
+
+  <div class="container-dm">
+
+    <!-- navbar responsivo -->
+
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="index.html"> <img loading="lazy" class="iconofrigo" src="imagenes/iconoFRIGO.svg" alt=""></a>
+        <a class="navbar-brand mx-0 titulo" href="index.html">MISTER RAPALINO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas w-50 bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-white">
+            <h5 class="offcanvas-title titulo text-white" id="offcanvasNavbarLabel">MENU</h5>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link cuerpo" aria-current="page" href="index.html">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active cuerpo" href="productos.html">productos</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link cuerpo" href="contactanos.html">contactanos</a>
+              </li>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- fin del navbar -->
+
+
+    <h1 class="resaltado mx-auto fs-4 text-center"
+      style="margin-top: 80PX; border-bottom: 1px solid #000; width: 300px;">NUESTROS PRODUCTOS</h1>
+
+
+    <div class="container-md">
+
+      <div class="accordion" style="margin-top: 40px;" id="accordionExample">
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button resaltado" type="button" style="color: #000;" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              CORTES DE LA RES
+            </button>
+
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <h5 class="resaltado mt-3 border-0">CORTES </h5>
+
+              <div class="row">
+
+                <div class="">
+                  <img class="res my-4" src="imagenes/productores.jpg" alt="">
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/corteres1.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">T-BONE <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/corteres2.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">TOMAHAWK <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/newyork.jpeg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">NEWYORK STEAK <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/solomillo.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">SOLOMILLO <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/ribeye.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">RIB EYE <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/entrecot.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">ENTRECOT<span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/picaña.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">PICAÑA <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/lomofino.jfif" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">LOMO FINO <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/chuleton.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">CHULETON <span
+                          class="badge mx-2 text-dark bg-warning">CORTE PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/vacio.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">VACIO<span class="badge mx-2 text-dark bg-warning">CORTE
+                          PREMIUM</span> </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/lomo_ancho.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">LOMO ANCHO</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/masafrente.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">MASA FRENTE</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/chocozuela.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">MASA DE CHOCOZUELA</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/bollito.jpeg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">BOLLITO</p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/barcino.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">BARCINO</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/molidares.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">CARNE MOLIDA 80/20</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/cohete.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">COHETE</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/costillares.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">COSTILLA CARNUDA</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/esmechar.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">DESMECHAR</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/bofe.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">BOFE</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/corazon.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">CORAZON</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/mondongo.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">MONDONGO</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/pata_de_res.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">PATA DE RES</p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100" style="width: 18rem;">
+                    <img src="imagenes/lengua.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">LENGUA</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button resaltado collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              CORTES DEL CERDO
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <h5 class="resaltado mt-3 border-0">CORTES</h5>
+
+
+              <div class="row">
+
+                <div class="">
+                  <img class="res my-4" src="imagenes/productocerdo.jpg" alt="">
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/lomocerdo.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">LOMO DE CERDO </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/tocino_.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">TOCINO </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/papada.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">PAPADA </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/costillla.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">COSTILLA DE CERDO </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/chuleta.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">CHULETA </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/solomito.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">SOLOMITO DE CERDO </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/barriguero.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">BARRIGUERO </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                  <img src="imagenes/pierna.jpg" class="card-img-top corte" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text resaltado text-white">MASA DE CERDO</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                  <img src="imagenes/lagarto.jpg" class="card-img-top corte" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text resaltado text-white">LAGARTO</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                  <img src="imagenes/brazuelo_01.jpg" class="card-img-top corte" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text resaltado text-white">BRAZUELO</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/osobuco.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">CODILLO </p>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                      <img src="imagenes/pezuña.jpg" class="card-img-top corte" alt="...">
+                      <div class="card-body mt-1">
+                        <p class="card-text resaltado text-white">PEZUÑA </p>
+                      </div>
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+              </div>
+
+
+      
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button resaltado collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            CORTES DEL POLLO
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          
+            <h5 class="resaltado mt-3 border-0">CORTES</h5>
+
+ 
+            <div class="row">
+              <div class="">
+                <img class="res my-4" src="imagenes/productopollo.jpg" alt="">
+              </div>
+
+
+
+
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                  <img src="imagenes/pollo.jpg" class="card-img-top corte" alt="...">
+                  <div class="card-body mt-1">
+                    <p class="card-text resaltado text-white">POLLO ENTERO </p>
+                  </div>
+                </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                    <img src="imagenes/gallina.jpg" class="card-img-top corte" alt="...">
+                    <div class="card-body mt-1">
+                      <p class="card-text resaltado text-white">GALLINA CRIOLLA </p>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                      <img src="imagenes/pechuga.jfif" class="card-img-top corte" alt="...">
+                      <div class="card-body mt-1">
+                        <p class="card-text resaltado text-white">PECHUGA </p>
+                      </div>
+                    </div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                      <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                        <img src="imagenes/muslos-de-pollo.jpg" class="card-img-top corte" alt="...">
+                        <div class="card-body mt-1">
+                          <p class="card-text resaltado text-white">MUSLOS </p>
+                        </div>
+                      </div>
+                      </div>
+  
+
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                          <img src="imagenes/contra.jfif" class="card-img-top corte" alt="...">
+                          <div class="card-body mt-1">
+                            <p class="card-text resaltado text-white">CONTRAMUSLOS </p>
+                          </div>
+                        </div>
+                        </div>
+    
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                          <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                            <img src="imagenes/alas.png" class="card-img-top corte" alt="...">
+                            <div class="card-body mt-1">
+                              <p class="card-text resaltado text-white">ALAS DE POLLO </p>
+                            </div>
+                          </div>
+                          </div>
+      
+
+                          <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                              <img src="imagenes/patas-de-pollo.jpg" class="card-img-top corte" alt="...">
+                              <div class="card-body mt-1">
+                                <p class="card-text resaltado text-white">PATAS DE POLLO </p>
+                              </div>
+                            </div>
+                            </div>
+        
+
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                              <div class="card bg-dark px-1 pt-1 pb-0 mt-3 w-100 border-0" style="width: 18rem;">
+                                <img src="imagenes/menudencia.jfif" class="card-img-top corte" alt="...">
+                                <div class="card-body mt-1">
+                                  <p class="card-text resaltado text-white">MENUDENCIA </p>
+                                </div>
+                              </div>
+                              </div>
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+
+  <div class="card my-5 mx-auto text-center border-0 mb-3" style="max-width: 500px;">
+      
+    <div class="card-body ">
+        <h5 class="card-title titulo">¡Domicilios a toda cartagena!</h5>
+       <p class="cuerpo">Numero: <a href="https://wa.me/+573014704285" style="text-decoration: none;" class="card-text cuerpo">3014704285</a> </p>
+        <p class="card-text cuerpo-min"> ¿que esperas para hacer tu pedido? ¡escribenos por whatsapp!</p>
+    </div>
+
+</div>
+
+
+
+<div class="wasa2">
+  <a href="https://wa.me/+573108905176">  <img loading="lazy" class="wasa" src="imagenes/whatsapp.png" alt=""></a>
+</div>
+
+
+
+    <div class="alert w-100 text-center jeyve position-fixed fixed-bottom  alert-dismissible fade show" style="font-weight: bold;" role="alert">
+        <strong>Hola!</strong> para ordenar tu pedido te recomendamos que nos escribas al whatsapp <a style=" color: #fff; font-weight: bold;" href="https://wa.me/+573014704285">presiona aqui</a>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+      <footer class="p-2 text-center">
+        <p class="resaltado" style="font-size: 12px;">MISTER RAPALINO ©2022 - Todos Los Derechos Reservados</p>
+    </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+  </script>
+
+
+</body>
+
+</html>
